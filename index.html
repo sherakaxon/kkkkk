@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <div class="maket">
+        <div class="info">
+            <div class="container">
+                <table class="table-block">
+                        <tr>
+                            <th>ID</th>
+                            <th>заголовок</th>
+                            <th>описание</th>
+                            <th>цена</th>
+                        </tr>
+                        <tr>
+                            <td class="text-td"></td>
+                            <td class="text-td"></td>
+                            <td class="text-td"></td>
+                            <td class="text-td"></td>
+                            <td class="text-td"><a href="#">комментария</a></td>
+                            <td class="text-td"><a href="#">Обновить</a></td>
+                            <td class="text-td"><a style="color: red;" href="#">удалить</a>
+                            </td>
+                        </tr>
+                </table>
+            </div>
+        </div>
+        <div class="form-box">
+            <div class="container">
+                <div class="form-block">
+                    <form action="vendor/create.php" method="post">
+                        <label>Заголовок</label>
+                        <input type="text" name="title">
+                        <label>описание</label>
+                        <textarea name="description"></textarea>
+                        <label>цена</label>
+                        <input type="number" name="price"> <br> <br>
+                        <button type="submit">добавить новые продукты
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+</body>
+
+</html>
+
+<script src="js/jquery.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/script.js"></script>
+</body>
+
+</html>
